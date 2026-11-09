@@ -1,0 +1,11 @@
+nombre,forma,ancho,profundidad,activacion,tasa,lote,epocas,parametros,perdida_entrenamiento,exactitud_entrenamiento,perdida_validacion,exactitud_validacion
+base,cilindrica,128,2,relu,0.1000,64,2,118282,0.3513,0.8930,0.3033,0.9030
+tasa-baja,cilindrica,128,2,relu,0.0010,64,2,118282,2.2776,0.1788,2.2636,0.2135
+tasa-alta,cilindrica,128,2,relu,1.5000,64,2,118282,2.3122,0.1095,2.3045,0.1140
+lote-pequeño,cilindrica,128,2,relu,0.1000,16,2,118282,0.2444,0.9180,0.2305,0.9295
+lote-grande,cilindrica,128,2,relu,0.1000,256,2,118282,0.7486,0.7818,0.5612,0.8190
+activacion-sigmoide,cilindrica,128,2,sigmoide,0.1000,64,2,118282,2.1348,0.3202,1.9403,0.3795
+activacion-tanh,cilindrica,128,2,tanh,0.1000,64,2,118282,0.3533,0.9040,0.2899,0.9145
+profundidad-1,cilindrica,128,1,relu,0.1000,64,2,101770,0.3141,0.9085,0.2739,0.9230
+profundidad-4,cilindrica,128,4,relu,0.1000,64,2,151306,0.7123,0.7660,0.5270,0.8355
+forma-piramidal,piramidal,128,2,relu,0.1000,64,2,109386,0.3655,0.8912,0.2978,0.9065
